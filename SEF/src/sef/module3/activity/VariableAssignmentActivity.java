@@ -19,7 +19,7 @@ public class VariableAssignmentActivity {
 		// 3- Print updated value to the console
 		
 		int janis = 777;
-		janis = 5555;
+		janis = 778;
 		String iscoding = String.valueOf(janis);
 		System.out.println(iscoding);
 	}
