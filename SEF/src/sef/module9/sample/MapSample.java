@@ -32,7 +32,7 @@ public class MapSample {
 		
 		//You can use an iterator to access keys
 		System.out.println("*************************************");
-		System.out.println("Key\tValue");
+		System.out.println("Key\tValue"); // \t = tab
 		Iterator it=keySet.iterator();
 		while(it.hasNext())
 		{

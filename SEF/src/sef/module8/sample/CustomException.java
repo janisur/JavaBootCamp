@@ -1,10 +1,15 @@
 package sef.module8.sample;
 // Needs to be completed
 //Extending from Exception class makes CustomException a Checked Exception
-public class CustomException extends Exception{
+public class CustomException extends Exception {
 
 	//1 - Override the toString method of Exception.
 	//This message gets printed as soon as CustomException is thrown.
+	
+	public String toString() {
+		
+		return "This is my custom Exception";
+	}
 	
 
 	//You can also write more information about this exception in getMessage()
@@ -12,7 +17,9 @@ public class CustomException extends Exception{
 	public String getMessage() {
 		//3 - Enter a message in it and return the same
 		
-			return null;
+		String msg = "Here is more information about this exception";
+		
+			return msg;
 	}
 	
 	

@@ -7,11 +7,14 @@ public class ExceptionDeclarationSample {
 			//1 - Throw an instance of  IllegalArgumentException with a String parameter
 			//The parameter passed would be printed in the output
 			
+			throw new IllegalArgumentException("Parameter age cannot be less than 0. really!");
 		}
 	}
 	
 	public static void main(String arg[]){
 		//2 - Call setAge with a negative parameter
+		
+		setAge(-2);
 		
 	}
 }
