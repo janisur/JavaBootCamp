@@ -30,6 +30,15 @@ class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	/*public Employee(String id, String firstName, String lastName, int salary) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.salary = salary;
+	}
+	*/
+	
 	
 	
 }
